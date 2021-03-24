@@ -1,0 +1,101 @@
+HTTP Header				Description
+---------------------------------------------------------------------------------------------------------------------------------------------
+Content-Type	       			Denotes the type of media
+Date               		   	Date and Time from the response
+Server          		        Information about the Server Software
+Set-Cookie			        Assigns cookies from Server to Client
+Connection				Controls network connection
+Content-Encoding			Specifies compression type
+Vary					Details how to determine if cache can be used rather than a new response from server
+Cache-Control				Details caching options in requests and responses
+Transfer-Encoding			Encoding to be used for transfer of data
+Expires					Specifies when the response becomes "stale"
+Content-Length				Size of resource in number of bytes
+X-Powered-By				Hosting and Backend Server Frameworks may use this. Can reveal sensitive information (version and software).
+Link					Serialising one or more links in HTTP headers
+Pragma					Related to caching, may be implemented in different ways.
+Keep-Alive				Specifies how long a persistent connection stays open
+Last-Modified				Last modification date of resource. Used for caching.
+X-Content-Type-Options			Disables MIME Sniffing and forces browser to use type shown in Content-Type
+CF-RAY					CloudFlare Header. A hashed value encoding information about the data center and the request.
+ETag					Cache Validation Tag. Also used for tracking users with cookies disabled.
+X-Frame-Options				Specifies whether browser should show page in an iFrame
+CF-Cache-Status				CloudFlare header shows whether a resource is cached
+Accept-Ranges	 
+Strict-Transport-Security		Force communication to use HTTS (not HTTP)
+X-XSS-Protection			Enables Cross Site Scripting (XSS) filtering
+Expect-CT				Reporting and enforcement of Certificate Transparency. Prevents the use of mis-issued certificates for the site.
+					When enabled the Expect-CT header requests that Chrome checks certificates for the site appear in public CT logs.
+X-Cache					Used by CDN's to specify whether resource in CDN cache matches server resource
+set-cookie				Assigns cookies from Server to Client
+Age					Time in seconds resource has been in proxy cache
+Upgrade					One way to switch from HTTP to HTTPS
+Content-Language			Describes the language(s) intended for the document
+P3P					Privacy Protocol that was not widely adopted
+Content-Security-Policy CSP		Controls which resources the client can load for the page
+Via					Added by proxies. Can be used for both forward and reverse proxies (requests & responses)
+Alt-Svc					List other ways to access service
+X-AspNet-Version			Specifies the version of ASP.NET being used
+Access-Control-Allow-Origin		Details whether the response can be shared.
+X-UA-Compatible				Compatiability header for old versions of Microsoft Internet Explorer (IE) and Edge
+Referrer-Policy				Rules which referrer information sent in the referrer header is incorporated with requests
+Report-To				Header used for adding troubleshooting information??
+NEL					An option for developers to set network error reporting.
+X-Download-Options			Specific to IE8. Stops downloads opening directly in browser.
+X-Permitted-Cross-Domain-Policies	 
+X-Proxy-Cache				Enable caching in NGINX reverse proxy
+Etag					Used for HTTP Cache validation and conditional requests using If-Match and If-None-Match
+X-Request-Id				Unique request ID that associates HTTP requests between a client and a server.
+X-Cacheable				Non-standard header related to caching, use can vary between different proxy & cdn networks
+X-Dc	 
+X-Sorting-Hat-PodId			Shopify Related
+X-Shopify-Stage				Shopify Related
+X-ShopId				Shopify Related
+X-Sorting-Hat-ShopId			Shopify Related
+X-ShardId				Shopify Related
+X-Alternate-Cache-Key			Shopify Related
+X-Cache-Hits				Data successfully located in cache memory
+X-Varnish				ID of the current request and the ID of the request that populated the Varnish cache
+X-Pass-Why				provides reason for a 'MISS' result in the x-cache
+X-Generator				exposes information/meta data about the site such as version of software
+X-Cache-Group				Tags the clients about the cache-group to which they belong
+X-Powered-By-Plesk			Plesk Hosting Software
+X-AspNetMvc-Version			Shows the version of the framework
+X-Powered-CMS				Exposes name and version of CMS
+X-Served-By				Caching related
+expires					Contains the date/time after which the response object is considered stale
+X-Amz-Cf-Pop				Amazon CloudFront
+X-Amz-Cf-Id				Amazon CloudFront ID (CloudFront requires this information for debugging.)
+X-Drupal-Cache				Indicates if request was served from Drupal Cache (Hit or Miss)
+X-Xss-Protection			Internet explorer header compatibility filter for blocking XSS
+Server-Timing				Conveys information for the request-response cycle
+content-encoding			Header specifying compression (gzip / compress / deflates etc)
+X-Timer					A "Fastly" header: end to end request timing information
+X-Runtime				reveals time application takes to serve a request
+X-ac					WordPress.com related
+Host-Header				Maybe same as "Host:" header?
+Access-Control-Allow-Headers	 
+server					info incl version on software used by server
+date	 
+X-hacker				Recruitment 'ad' by automattic.com
+Access-Control-Allow-Methods	 
+X-LiteSpeed-Cache	 
+X-Turbo-Charged-By			Added when clouflare is used
+strict-transport-security		HSTS informs browser to use HTTPS not HTTP
+etag					Identifies object (and version) for caching purposes
+X-Robots-Tag				Allows you to choose content search engines can crawl on the site
+X-Seen-By	 
+X-Wix-Request-Id			Wix hosting request ID
+x-contextid	 
+X-Mod-Pagespeed				Module for apache (and nginx) to increase performance
+X-Cache-Status	 
+Status					Non-standard HTTP response status (Status: 200 OK)
+X-Server-Cache				Non-standard caching related
+x-ray					CloudFlare Releated
+Cache-control				Specifies requests and responses caching mechanisms
+X-Cache-Enabled				Cache Enabled (True / False)
+Access-Control-Allow-Credentials	Header tells browser whether to expose the response to frontend JavaScript
+X-Server-Powered-By			Exposes server side software
+X-Adblock-Key				Sites use this to bypass ad blocker plugins
+X-Host					Non-standard host header
+X-Nginx-Cache-Status			Nginx Caching Header
